@@ -9,9 +9,9 @@ Get Input Data    [Arguments]    ${DAY}
     New Page    https://adventofcode.com/
     Click    "[Log In]" 
     Click    "[Google]"   
-    Fill Text    //input[@type="email"]    hessuahokas@gmail.com
+    Fill Text    //input[@type="email"]    
     Click    "Seuraava"
-    Fill Text    //input[@type="password"]    Ortodoks1
+    Fill Text    //input[@type="password"]    
     Click    "Seuraava"
     Click    //span[text()=" ${DAY}"]
     Click    a >> text="get your puzzle input"
